@@ -1,0 +1,113 @@
+:root{
+    --nav-color: white;
+    --hovercolor: rgb(149, 223, 149);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*General*/
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+h2{
+    font-size: 2.5rem;
+}
+
+li
+{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.title{
+    margin-bottom: 40px;
+}
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/*Nav bar*/
+nav{
+    position: fixed;
+    width: 100%;
+}
+.nav-list {
+    background-color: black;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 5rem;
+}
+
+.nav-item a {
+    font-size: 2rem;
+    color: white;
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+#nav-logo {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+    width: 40px ;
+    height: auto;
+}
+
+
+/*Responsivness*/
+/* media queries */
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    
+    /*navbar*/
+    nav{
+        position: relative;
+        width: 100%;
+    }
+    .nav-list {
+        background-color: black;
+        padding: 2rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-item {
+        margin:1rem 0rem;
+    }
+    .nav-item:first-child {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+
+}
+/* Animations */
+.nav-item a:hover {
+    color:var(--hovercolor);
+}
+
