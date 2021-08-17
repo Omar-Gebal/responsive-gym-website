@@ -45,7 +45,7 @@ nav{
 }
 .nav-list {
     background-color: rgba(9, 9, 9, 0.9);
-    padding: 2rem 100px;
+    padding: 2rem 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -53,7 +53,7 @@ nav{
 }
 
 .nav-item {
-    margin-right: 5rem;
+    margin-right: 2rem;
 }
 
 .nav-item a {
@@ -77,11 +77,19 @@ nav{
 
 /*Responsivness*/
 /* media queries */
-@media only screen and (max-width: 1200px){
-    /*Tablets [601px -> 1200px]*/
-    
+@media only screen and (max-width: 900px){
+    /*Tablets [601px -> 1150px]*/
+    .nav-list{
+        padding: 2rem 50px;
+    }
+    .nav-item a {
+        font-size: 1.2rem;
+    }
+    .nav-item {
+        margin-right: 1.2rem;
+    }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 709px){
 	/*Big smartphones [426px -> 600px]*/
     
     /*navbar*/
