@@ -45,7 +45,7 @@ nav{
 }
 .nav-list {
     background-color: rgba(9, 9, 9, 0.9);
-    padding: 1.6rem 150px;
+    padding: 2rem 100px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -67,10 +67,11 @@ nav{
     margin-left: 2rem;
 }
 
-#nav-logo {
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
-    width: 20px ;
-    height: auto;
+.nav-logo {
+    color: var(--hovercolor);
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
 }
 
 
@@ -111,7 +112,7 @@ nav{
 }
 /* Animations */
 .nav-item a:hover {
-    border-bottom: 2px solid #ff7101 ;
+    border-bottom: 2px solid var(--hovercolor);
 }
 header{
     display: flex;
