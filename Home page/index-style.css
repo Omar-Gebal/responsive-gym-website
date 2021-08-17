@@ -1,6 +1,7 @@
 :root{
     --nav-color: white;
     --hovercolor: #ff7101;
+    --header: black;
 }
 
 * {
@@ -36,11 +37,21 @@ body{
     overflow-y: scroll;
     overflow-x: hidden;
 }
+/*Header*/
+header{
+    display: flex;
+    padding : 1rem 50px;
+    background-color: var(--header);
+    color: var(--nav-color);
+    font-size: 2rem;
+}
+.header-item{
+    margin-right: 2rem;
+}
 
 /*Nav bar*/
 nav{
-    margin-top: 25px;
-    position: fixed;
+    position: relative;
     width: 100%;
 }
 .nav-list {
@@ -64,7 +75,7 @@ nav{
 
 .nav-item:first-child {
     margin-right: auto;
-    margin-left: 2rem;
+    margin-left: 0rem;
 }
 
 .nav-logo {
@@ -72,6 +83,14 @@ nav{
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 800;
+}
+
+/*Added using js*/
+.sticky
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 
@@ -121,9 +140,5 @@ nav{
 /* Animations */
 .nav-item a:hover {
     border-bottom: 2px solid var(--hovercolor);
-}
-header{
-    display: flex;
-    background-color: plum;
 }
 
