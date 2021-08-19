@@ -301,3 +301,36 @@ font-weight: 900;
   html{
       background-color: white;
   }
+
+  .abttext h2{
+    display: block;
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 110%;
+    margin-bottom: 0;
+    color: black;
+    position: absolute;
+    right:360px ;
+    top: 850px;
+    z-index: 10;
+  }
+  .abttext h2, .abttext h3, .abttext p
+  {
+    color: black;
+    position: absolute;
+    left:670px ;
+    top: 850px;
+    z-index: 10;
+    width: fit-content;
+  }
+  .abttext h3{
+    top:940px;
+    font-size: 40pt;
+    font-weight: 300;
+  }
+  .abttext p{
+      width: 630px;
+      font-size: 20px;
+      top: 1020px;
+      text-align: justify;
+  }
