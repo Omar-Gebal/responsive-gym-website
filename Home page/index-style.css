@@ -38,6 +38,7 @@ body{
     overflow-x: hidden;
     background-color: black;
 }
+
 /*Header*/
 header{
     display: flex;
@@ -179,8 +180,8 @@ li span {
     border-radius: 0 3px 3px 0;
     user-select: none;
     writing-mode: vertical-rl;
-text-orientation: upright;
-font-weight: 900;
+    text-orientation: upright;
+    font-weight: 900;
   }
   
   /* Position the "next button" to the right */
