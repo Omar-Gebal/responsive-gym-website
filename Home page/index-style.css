@@ -314,6 +314,7 @@ li span {
     right:360px ;
     top: 850px;
     z-index: 10;
+    width: 70%;
   }
   .abttext h2, .abttext h3, .abttext p
   {
@@ -326,12 +327,84 @@ li span {
   }
   .abttext h3{
     top:940px;
-    font-size: 40pt;
+    font-size: 40px;
     font-weight: 300;
   }
   .abttext p{
       width: 630px;
       font-size: 20px;
-      top: 1020px;
+      top: 1010px;
       text-align: justify;
   }
+  .btn{
+    display: inline-block;
+    overflow: hidden;
+    background: transparent;
+    padding: 20px 60px;
+    border-radius: 50px;
+    font-weight: 900;
+    transition-duration: 0.3s;
+    font-size: 20px;
+  }
+.mySlides .btn{
+   border: 1px solid white;
+    color: white;
+}
+.abttext .btn{
+    border: 1px solid var(--hovercolor) ;
+    color: black;
+    position: absolute;
+    top:1280px;
+    left: 670px;
+    z-index: 100;
+}
+.btn:hover{
+    background-color: var(--hovercolor);
+    color: white;
+    border-color: var(--hovercolor);
+}
+.courses
+{
+    padding : 1rem 180px;
+    background: url("../imgs/course_bg.png");
+    background-size: cover;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    
+}
+.courses h2{
+    line-height: 110%;
+    font-size: 90px;
+    font-weight: 800;
+    color: white;
+    background-size: cover;
+    margin-top: 60px;
+}
+.courses h3{
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+}
+.courses ul {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px 50px;
+    margin-bottom: 80px;
+}
+.courses li{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 20px;   
+    color: white;
+    text-align: center;
+}
+.courses img
+{
+    width: 100%;
+}
+.courses li:hover{
+    color: var(--hovercolor);
+}
