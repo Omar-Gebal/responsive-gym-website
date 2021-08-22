@@ -408,3 +408,150 @@ li span {
 .courses li:hover{
     color: var(--hovercolor);
 }
+/*Footer*/
+
+.footer-container{
+    padding:1rem 180px;
+    background-color:#000 ;
+    color:#fff;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    
+ 
+
+}
+.footer fab{
+    font-size:20px;
+    float:inline;
+    display:flex;
+    
+}
+.footer li{
+    
+    margin-bottom:1rem;
+    font-size:25px;
+}
+.footer h2{
+    padding-top:40px;
+   align-items: baseline;
+   flex-direction:column;
+   font-size: 25px;
+   padding-bottom: 1rem;
+}
+.footer a{
+    font-size: 1.5rem;
+   text-decoration: none;
+   color:#fff;
+   margin-bottom:0.5rem;
+}
+.footer-part-1{
+    display:flexbox;
+}
+.footer-part-2{
+    display: inline-block;
+    
+}
+.footer-form-email{
+    
+    display: inline-block;
+    
+    
+}
+.footer-container Map{
+    
+    height:30%;
+    display: inline-block;
+    
+}
+#footer-email-btn{
+text-align: center;
+width:150px;
+font-size:1.5rem;
+text-transform: uppercase;
+border: 1px solid #fc7001;
+border-radius: 50px;
+font-weight: 850;
+overflow: hidden;
+background: transparent;
+color: #fff;
+height:3rem;
+
+}
+#email-add{
+    width:20rem;
+    height:3rem;
+    border-radius:4px;
+    outline:none;
+    border:none;
+    padding-left:0.5rem;
+    padding-right:1rem;
+    font-size:1.5rem;
+    margin-bottom:1rem;
+}
+#email-add::placeholder{
+    font-size: small;
+    text-align: left;
+    color:#b1b1b1;
+    
+}
+#footer-email-btn:hover{
+    cursor:pointer;
+    background-color: #fff;
+    color:#000;
+    transition-duration: 0.3s;
+    transition: all 0.4s ease-out;
+}    
+.footer{
+    display :grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    height:20%;
+    gap: 50px;
+
+}
+.footer copyright-section{
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    font-size:20px;
+    font:bold;
+} 
+.footer a:hover{
+    color:#D35400 ;
+    transition: 0.3s ease-out;
+}
+.footer-container icons p{
+    
+    padding-bottom:2rem;
+    font-size:20px;
+}
+.fa-instagram:hover{
+    cursor:pointer;
+    color:#D2B4DE;
+}
+.fa-facebook:hover{
+    cursor:pointer;
+    color:#2471A3;
+}
+.fa-twitter:hover{
+    cursor:pointer;
+    color:#AED6F1 ;
+}
+.fa-snapchat:hover{
+    cursor:pointer;
+    color:#F7DC6F ;
+}
+.footer iframe{
+    height: 135px;
+}
+.footer-form-email p{
+    font-size:small;
+    text-align: center;
+    font-style: italic;
+    justify-content: center;
+    padding-bottom:1rem;
+    padding-top:0rem;
+    float:top;
+}
+    
+
+
