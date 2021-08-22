@@ -821,3 +821,31 @@ outline: none;
     color: white;
     font-size: 1.5rem;
 }
+/*Admin panel*/
+#admin-panel{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    padding: 1rem 180px;
+}
+
+#admin-panel button{
+    margin-top: 8vh;
+    z-index: 100000;
+    display: flexbox;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+#activate{
+    padding: 10px 20px;
+    font-size: 1rem;
+}
