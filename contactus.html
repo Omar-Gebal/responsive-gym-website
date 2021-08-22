@@ -17,7 +17,7 @@
 <body>
     <header>
         <a href="tel:+18001256524" class="header-item">+1 800125 6524</a>
-        <a href="mailto:contact@gymfit.com" class="header-item">contact@gymfit.com</a>
+        <a href="mailto:contact@gymfit.com" class="header-item" id="email">contact@gymfit.com</a>
         <div class="header-item">
             Follow on
             <a href=""><img src="" alt=""></a>
@@ -38,6 +38,10 @@
             </ul>
         </nav>
     </nav>
+    <div id="admin-panel">
+        <button class="admin-btn" onclick="changeTele();" id='btn-home2'>change phone number</button>
+        <button class="admin-btn" onclick="changeEmail();" id='btn-home2'>change email address</button>
+    </div>
     <section class="landing">
         <h1>CONTACT US</h1>
         <h2>BUILDING A COMMUNITY OF ATHLETIC WOMEN</h2>
@@ -47,14 +51,14 @@
             <div class="contcard">
                 <div class="contloc"></div>
                 <div class="conttext">
-                <address>13005 Greenville Avenue Califonia, TX 70240</address>
+                <address id="gym-address">13005 Greenville Avenue Califonia, TX 70240</address>
                 </div>
             </div>
             <div class="contcard">
                 <div class="contcont"></div>
                 <div class="conttext">
-                <a href="tel:+18001256524">+1 800125 6524</a>
-                <a href="email:contact@gymfit.com">contact@gymfit.com</a>
+                <a href="tel:+18001256524" id="telephone">+1 800125 6524</a>
+                <a href="email:contact@gymfit.com" id="email-address">contact@gymfit.com</a>
             </div>
             </div>
             <div class="contcard">
@@ -142,7 +146,7 @@
                 <hr>
                 <br>
                 <div class="copyright-section">
-                    <p align="center">&copy; 2021 GYMFIT. ALL RIGHTS RESERVED</p>
+                    <p align="center">&copy; 2021 GYMFIT. ALL RIGHTS RESERVED</p> <button onclick="password();" id="activate">ADMIN</button>
                 </div>
                 
                 
@@ -152,9 +156,9 @@
   
 </body>
 
+<!--admin script-->
+<script src="/multi use scripts/admin.js"></script>
 <!--Navbar script-->
 <script src="multi use scripts/navbar.js"></script>
-<!--Carousel script-->
-<script src="multi use scripts/slides.js"></script>
 
   </html>

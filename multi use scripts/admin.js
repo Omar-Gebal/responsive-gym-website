@@ -1,3 +1,4 @@
+//Homepage
 //hides buttons by default
 var buttons = document.querySelectorAll(".admin-btn");
 function hidebuttons(){
@@ -52,3 +53,19 @@ function password(){
         showbuttons();
     }
 }
+
+//Contact us
+function changeTele(){
+    var x = document.getElementById("telephone");
+    var telephone= prompt('Please enter the new telephone number:')
+          x.innerHTML = telephone;
+}
+function changeEmail(){
+    var x = document.getElementById("email-address");
+    var email= prompt('Please enter the new email:')
+          x.innerHTML = email;
+}
+
+
+
+
