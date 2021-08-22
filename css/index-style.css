@@ -479,7 +479,7 @@ gap: 80px;
     background-repeat: no-repeat;
     height: 480px;
 }
-.landing h1{
+.landing h1, .abtlanding h1{
     background: none;
     font-size: 90px;
     font-weight: 800;
@@ -489,7 +489,7 @@ gap: 80px;
     text-align: left;
     margin-top: 120px;
 }
-.landing h2{
+.landing h2, .abtlanding h2{
     font-size: 40px;
 color: #fff;
 margin-top: 0;
@@ -820,4 +820,233 @@ outline: none;
 .header-item i{
     color: white;
     font-size: 1.5rem;
+}
+#value {
+    font: 800 40px system-ui;
+  }
+.abtlanding{
+    padding:1rem 180px  ;
+    background-image: url("../imgs/abtbck.jpg");
+    background-size: cover      ;
+    background-repeat: no-repeat;
+    height: 480px;
+}
+.about-container{
+    padding:1rem 180px;
+    align-items:center;
+    justify-content:center;
+    background-color: white;
+ 
+}
+.about-image img{
+width:500;
+max-width: 100%;
+flex-basis: 40%;
+}
+.about-text h2{
+font-size: 90px;
+font-weight: 800;
+}
+.about-text h3{
+padding-bottom:30px;
+font-weight:300;
+font-size:40px;
+}
+.about-text p{
+text-align: justify;
+font-size: 20px;
+}
+.about-text{
+padding-left: 20px;
+position: relative;
+top: 20%;
+}
+#about-contact-btn{
+position: relative;
+left: 0;
+display: inline-block;
+overflow: hidden;
+background: transparent;
+color: #000;
+padding: 20px 60px;
+text-transform: uppercase;
+border: 1px solid #fc7001;
+border-radius: 50px;
+font-weight: 900;
+font-size: 20px;
+margin: 50px 0;
+}
+#about-contact-btn:hover{
+cursor:pointer;
+background-color:#fc7001;
+color:#fff;
+transition-duration: 0.3s;
+transition: all 0.4s ease-out;
+}
+.about-Contact-btn{
+text-align:center;
+}
+.about_flex{
+display:grid;
+grid-template-columns:2fr 3fr ;
+gap: 30px;
+}
+.countercont
+{
+    background-image: url("../imgs/achivments.jpg");
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:1rem 180px;
+    height: 200px;    
+}
+#value,#project,#client,#coffee
+{
+    font: 800 40px system-ui;
+    font-size: 50px;
+padding: 0;
+margin-top: 20px;
+text-align: center;
+color: #ff7101;
+font-weight: 600;
+font-family: 'Lato', sans-serif;
+}
+.f span{
+    color: #ffffff;
+font-size: 20px;
+margin: 0;
+padding-top: 10px;
+font-weight: 500;
+letter-spacing: 1px;
+display: block;
+text-align: center;
+}
+
+.client-image2 img{
+    display: inline-block;
+    box-shadow: 3px 4px 15px 0px rgba(211, 211, 211, 0.75);
+    position:relative;
+    left:35%;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  border-color: #fc7001;
+  border-width: 2px;
+  border-style: solid;
+
+}
+
+.client-image1 img{
+    display: inline-block;
+    box-shadow: 3px 4px 15px 0px rgba(211, 211, 211, 0.75);
+    position:relative;
+    left:35%;
+ 
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  border-color: #fc7001;
+  border-width: 2px;
+  border-style: solid;
+}
+.Testimon-section{
+    padding:1rem 180px;
+    background-color: white;
+
+}
+   
+
+.Testimon-section h2{
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 1;
+    margin-top: 30px;
+}
+.Testimon-section h3{
+    padding-bottom:30px;
+    font-weight:300;
+    font-size:40px;
+}
+.Client-Name2 p{
+    font-size:20px;
+    padding-left:0.5px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 10px;
+
+}
+
+.Client-Name2 h5{
+    padding-top:0.5px;
+    padding-left:0.5px;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    color: var(--hovercolor);
+}
+
+.Client-Name1 p{
+    font-size:20px;
+    padding-left:0.5px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.Client-Name1 h5{
+    padding-top:0.5px;
+    padding-left:0.5px;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    color: var(--hovercolor);
+}
+.Client-Name2 article{
+    text-align: center;
+    padding:0.5rem;
+    font-size: 15px;
+    
+}
+
+.Client-Name1 article{
+    text-align: center;
+    padding:0.5rem;
+    font-size: 15px;
+}
+.client1-box{
+    position: relative;
+    left:15%;
+    box-shadow: 3px 4px 15px 0px rgba(211, 211, 211, 0.75);
+    width: 70%;
+    padding:3rem;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.client2-box{
+    position: relative;
+    left:15%;
+    box-shadow: 3px 4px 15px 0px rgba(211, 211, 211, 0.75);
+    width: 70%;
+    padding:3rem;
+    margin-bottom: 40px;
+    border-radius: 10px;
+
+}
+
+.Testimon-grid{
+    display:grid;
+    grid-template-columns:2fr 2fr;
+    
+}
+.client1-box:hover{
+    cursor:pointer;
+    background-color: #FAE5D3 ;
+    transition: 0.4s ease-out;
+}
+.client2-box:hover{
+    cursor:pointer;
+    background-color: #FAE5D3 ;
+    transition: 0.4s ease-out;
 }

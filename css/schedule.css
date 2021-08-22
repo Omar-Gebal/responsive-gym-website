@@ -1,0 +1,125 @@
+/* th {
+  background: #000;
+  color: #fff;
+} */
+#schedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+}
+#pm-table th {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  /*  min-height: 60px; */
+  text-transform: uppercase;
+}
+#pm-table tr td {
+  background-color: #e5e5e5;
+  margin-bottom: 10px;
+  height: 140px;
+  width: 160px;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+}
+#pm-table tr td > * {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0px);
+}
+#pm-table {
+  border-collapse: separate;
+  border-spacing: 15px 15px;
+  margin-top: 30px;
+}
+#pm-table tr th.side {
+  width: 5%;
+}
+#pm-table tr th.top {
+  height: 55px;
+}
+
+.icon-box {
+  /* box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2); */
+  /* background-color: #ffffff; */
+  /* position: relative; */
+  cursor: pointer;
+  /* background-clip: content-box; */
+}
+.icon-img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  height: 90px;
+  line-height: 20px;
+  padding-left: 10px;
+}
+/* .icon-img img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+} */
+.icon-img span {
+  display: block;
+  text-align: center;
+  line-height: 100%;
+}
+.caption {
+  font-size: 15px;
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  margin: 7px -50px 10px;
+}
+
+/* .icon-img img {
+  display: inline-block;
+ vertical-align: middle;
+  max-height: 50px;
+} */
+
+.ampm-btn {
+  border: 1px solid;
+  color: black;
+  position: inline-block;
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+  padding: 20px 60px;
+  border-radius: 50px;
+  font-weight: 900;
+  transition-duration: 0.3s;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.ampm-btn:hover {
+  background-color: #ff7101;
+  color: #fff;
+  cursor: default;
+}
+
+.caption-2 {
+  font-size: 15px;
+  color: #ff7101;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  margin: 0px -50px 10px;
+}

@@ -6,18 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/index-style.css">
-    <link rel="stylesheet" href="css/register-style.css">
     <link rel="shortcut icon" href="imgs/favicon.ico"type="image/x-icon">
 
     
-      <link rel="shortcut icon" href="imgs/favicon.ico"type="image/x-icon">
-    
     <title>Gym Fit</title>
 </head>
+
 <body>
-    
-    <!--Header-->
     <header>
         <a href="tel:+18001256524" class="header-item">+1 800125 6524</a>
         <a href="mailto:contact@gymfit.com" class="header-item">contact@gymfit.com</a>
@@ -27,14 +24,13 @@
             <a href=""><img src="" alt=""></a>
         </div>
     </header>
-
     <!--Navigation bar-->
     <nav>
         <nav>
             <ul class="nav-list">
                 <li class="nav-item"><span>GYM</span><span id="second">FIT</span></li>                
                 <li class="nav-item"><a href="index.html">HOME</a></li>
-                <li class="nav-item"><a href="aboutus.html">ABOUT US</a></li>
+                <li class="nav-item" id="active"><a href="aboutus.html">ABOUT US</a></li>
                 <li class="nav-item"><a href="trainers.html">TRAINERS</a></li>
                 <li class="nav-item"><a href="schedule.html">SCHEDULE</a></li>
                 <li class="nav-item"><a href="contactus.html">CONTACT US</a></li>
@@ -42,28 +38,99 @@
             </ul>
         </nav>
     </nav>
-
-    <!--Login-->
-    <div class="page log">
-        <!--Form-->
-        <div class="login-card">
-            <h1>Login</h1>
-            <form >
-                <div class="txt-field">
-                    <label>Username</label>
-                    <input type="text" required placeholder="username">
-                </div>
-                <div class="txt-field">
-                    <label>Password</label>
-                    <input type="password" required placeholder="password">
-                </div>
-                <input type="submit" value="Login" class="submit-button">
-                <div class="signup-link">
-                    Not a member? <a id="slink" href="register.html">Signup</a> 
-                </div>
-            </form>
+    <section class="abtlanding">
+        <h1>ABOUT US</h1>
+        <h2>BUILDING A COMMUNITY OF ATHLETIC WOMEN</h2>
+    </section>
+    <div class="about-container">
+        <div class="about_flex">
+            <div class="about-image">
+                <img src="imgs/about_inner.png"/>
+            </div>
+            <div class="about-text">
+                <h2 class="About-title">
+                    ABOUT US
+                </h2>
+                <h3>GYM FIT</h3>
+                <br>
+                <p>We believe that exercising is the key to live a happy life and our goal here is to make YOU happy. Gymfit offers you a wide range of courses that you can choose from , as well as excellent and skilled trainers to help you throughout your jorney. Gym Fit is a community where you will find everyone willing to help you and make you satisified.
+                </p>
+            </div>
         </div>
+        
+    
+        <div class="about-Contact-btn">
+            <a href="contactus.html">  
+                <input type="submit" id="about-contact-btn" value="CONTACT US"/>  
+               </a>
+        </div>
+    
     </div>
+    <section class="countercont">
+        <div id="value">
+            <span>0</span>
+            <span class="info">Days Worked</span>
+        </div>
+        <div id="project">
+            <span>0</span>
+            <span class="info">Project Finished</span>
+        </div>
+        <div id="coffee">
+            <span>0</span>
+            <span class="info">Coffee Cup</span>
+        </div>
+        <div id="client">
+            <span>0</span>
+            <span class="info">Client Satisfied</span>
+        </div>
+        <div class="f">
+            <span class="info">Days Worked</span>
+        </div>
+        <div class="f">
+            <span class="info">Project Finished</span>
+        </div>
+        <div class="f">
+            <span class="info">Coffee Cup</span>
+        </div>
+        <div class="f">
+            <span class="info">Client Satisfied</span>
+        </div>
+        
+    </section>
+    <div class="Testimon-section">
+        <h2>TESTIMONIALS</h2>
+        <h3>What Our Clients and Trainers Say</h3>
+        <div class="Testimon-grid">
+    
+        
+            <div class="client1-box">
+                <div class="client-image1">
+                    <img src="imgs/client1.jpg"/>
+                </div>
+                <div class="Testimons-Box">
+                    <div class="Client-Name1">
+                        <p>Maria Smith</p>
+                        <h5>Zumba Trainer</h5>
+                        <article>"I really love this place and the ambiance. The energy of the staff over here and the clients is so beautiful that it makes me motivated to train more. I have given zumba classes in other places before but this is truly the best...."</article>
+                    </div>
+                </div>
+            </div>
+             <div class="client2-box">
+                <div class="client-image2">
+                    <img src="imgs/client2.jpg"/>
+                </div>
+                <div class="Client-Name2">
+                    <p>Sara Adams</p>
+                     <h5>Client</h5>
+                    <article>"This place is more than perfect and it really gives me positive vibes.The coaches are very supportive and the classes are so much fun. Join us and you won't regret it!"</article>
+                </div>
+            </div>
+            
+                
+            </div>
+        
+        </div>
+
     <footer>
         <div class="footer-container">
             <div class="footer">
@@ -118,9 +185,14 @@
         </div>
   
     </footer>
-  
-  
+    
+
 </body>
+
 <!--Navbar script-->
 <script src="multi use scripts/navbar.js"></script>
+<!--Carousel script-->
+<script src="multi use scripts/slides.js"></script>
+<script src="multi use scripts/counter.js"></script>
+
 </html>

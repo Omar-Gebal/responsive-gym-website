@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <link rel="shortcut icon" href="imgs/favicon.ico"type="image/x-icon">
+      <link rel="stylesheet" href="css/coaches.css" />
+  <link rel="stylesheet" href="css/index-style.css">
+    
+    <title>Gym Fit</title>
+</head>
+
+<body>
+    <header>
+        <a href="tel:+18001256524" class="header-item">+1 800125 6524</a>
+        <a href="mailto:contact@gymfit.com" class="header-item">contact@gymfit.com</a>
+        <div class="header-item">
+            Follow on
+            <a href=""><img src="" alt=""></a>
+            <a href=""><img src="" alt=""></a>
+        </div>
+    </header>
+    <!--Navigation bar-->
+    <nav>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-item"><span>GYM</span><span id="second">FIT</span></li>                
+                <li class="nav-item"><a href="index.html">HOME</a></li>
+                <li class="nav-item" ><a href="aboutus.html">ABOUT US</a></li>
+                <li class="nav-item"id="active"><a href="trainers.html">TRAINERS</a></li>
+                <li class="nav-item"><a href="schedule.html">SCHEDULE</a></li>
+                <li class="nav-item"><a href="contactus.html">CONTACT US</a></li>
+                <li class="nav-item"><a href="register.html">REGISTER NOW</a></li>
+            </ul>
+        </nav>
+    </nav>
+    <section class="abtlanding" style="background-image: url(imgs/coaches.jpg) ">
+        <h1>GYM TRAINERS</h1>
+        <h2>BUILDING A COMMUNITY OF ATHLETIC WOMEN</h2>
+    </section>
+    <section id="coaches">
+        <strong class="coaches-heading">Gym Coaches</strong>
+        <div class="coaches-box">
+          <!-- member box 1 -->
+          <div class="member-box member-1" >
+            <a href="#details1">
+            <div class="member-img img-clip" onclick="detailsdisplay(1)" >
+              <img src="imgs/c1-a.jpg" alt="" />
+              <img src="imgs/c1-b.jpg" class="hover-img" alt="" id="c1" />
+            </a>
+          </div>
+            <div class="member-name">
+              <h3>Melanie Rogers</h3>
+              <h5>Gym Coach | Gymnastics Coach</h5>
+            </div>
+          </div>
+        
+          <!-- member box 2 -->
+          <div class="member-box member-2">
+            
+            <div class="member-img img-clip " onclick="detailsdisplay(2)">
+              <a href="#details2">
+              <img src="imgs/c2-a.jpg" alt="" />
+              <img src="imgs/c2-b.jpg" class="hover-img" alt="" />
+            </a>
+            </div>
+            <div class="member-name">
+              <h3>Anna Myers</h3>
+              <h5>Yoga Instructor</h5>
+            </div>
+          </div>
+          <!-- member box 3 -->
+          <div class="member-box member-1">
+            <div class="member-img img-clip " onclick="detailsdisplay(3)">
+              <a href="#details3">
+              <img src="imgs/c3-a.jpg" alt="" />
+              <img src="imgs/c3-b.jpg" class="hover-img" alt="" />
+            </a>
+            </div>
+            <div class="member-name">
+              <h3>Stephanie Wilson</h3>
+              <h5> Gym Coach | Yoga Instructor</h5>
+            </div>
+          </div>
+          <!-- member box 4 -->
+          <div class="member-box member-1">
+            <div class="member-img img-clip " onclick="detailsdisplay(4)">
+              <a href="#details4">
+              <img src="imgs/c4-a.jpg" alt="" />
+              <img src="imgs/c4-b.jpg" class="hover-img" alt="" />
+            </a>
+            </div>
+            <div class="member-name">
+              <h3>Amber Sharp</h3>
+              <h5>Kickboxing Coach</h5>
+            </div>
+          </div>
+          <!-- member box 5 -->
+          <div class="member-box member-1">
+            <div class="member-img img-clip " onclick="detailsdisplay(5)">
+              <a href="#details5">
+              <img src="imgs/c5-a.jpg" alt="" />
+              <img src="imgs/c5-b.jpg" class="hover-img" alt="" />
+            </a>
+          </div>
+            <div class="member-name">
+              <h3>Sofia Rodrigo</h3>
+              <h5>Gym Coach</h5>
+            </div>
+          </div>
+          <!-- member box 6 -->
+          <div class="member-box member-1">
+            <div class="member-img img-clip " onclick="detailsdisplay(6)">
+              <a href="#details6">
+              <img src="imgs/c6-a.jpg" alt="" />
+              <img src="imgs/c6-b.jpg" class="hover-img" alt="" />
+            </a>
+            </div>
+            <div class="member-name">
+              <h3>Sylvia Perez</h3>
+              <h5>Gym Coach | Crossfit Instructor</h5>
+            </div>
+          </div>
+  
+          
+          
+          <!-- detail-box-1 -->
+  
+          <div id="details1" class="detail-box-1">
+            <div class="member-detail-box">
+              <div class="detail-box-img ">
+                <img src="images/c1-a.jpg" alt="">
+              </div>
+              <div class="detail-box-text">
+                <!-- cancel button -->
+                <a href="#" class="cancel" onclick="hidedetails(1)">
+                  <i class="fas fa-times"></i>
+                <a href="#" class="detail-name">Melanie Rogers</a>
+    
+                <div class="member-social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <h5 class="position">Position: Gym Coach | Gymnastics Coach</h5>
+                <p>Highly talented Gymnastics Coach bringing 5 years of experience guiding, mentoring and developing athletes. Driven and high-achieving with award-winning career history in sports. Passionate about mentoring junior athletes to build sustainable training habits,supporting healthy lifestyles.</p>
+              </div>
+          </div>
+        </div>
+          <!-- detail-box-2 -->
+          <div id="details2" class="detail-box-2">
+            <div class="member-detail-box">
+              <div class="detail-box-img ">
+                <img src="images/c2-a.jpg" alt="">
+              </div>
+              <div class="detail-box-text">
+                <!-- cancel button -->
+                <a href="#" class="cancel" onclick="hidedetails(2)">
+                  <i class="fas fa-times"></i>
+                <a href="#" class="detail-name">Anna Myers</a>
+    
+                <div class="member-social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <h5 class="position">Position: Yoga Instructor</h5>
+                <p>Passionate yoga teacher with over 3+ years of professional experience in designing and leading flow and vinyasa yoga classes. In June 2018, completed an Advanced 300-Hour Yoga Teacher Training in Bali, Indonesia, and acquired an in-depth knowledge about postures, breathing techniques, and spiritual elements of yoga teaching. Anna is always eager to share her expertise and passion with everyone at GymFit. </p>
+              </div>
+            </div>
+          </div>
+          <!-- detail-box-3 -->
+          <div id="details3" class="detail-box-3">
+            <div class="member-detail-box">
+              <div class="detail-box-img ">
+                <img src="images/c3-a.jpg" alt="">
+              </div>
+              <div class="detail-box-text">
+                <!-- cancel button -->
+                <a href="#" class="cancel" onclick="hidedetails(3)">
+                  <i class="fas fa-times"></i>
+                <a href="#" class="detail-name">Stephanie Wilson</a>
+    
+                <div class="member-social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <h5 class="position">Position: Gym Coach | Yoga Instructor</h5>
+                <p>Gym Instructor who combines individual exercise sessions with comprehensive nutritional counseling to help clients achieve personal goals. Enjoys inspiring others to commit to long-term health and fitness goals. Encourages activities and coping methods that transform unhealthy habits and fuel healthy minds and bodies.</p>
+              </div>
+            </div>
+          </div>
+          <!-- detail-box-4 -->
+          <div id="details4" class="detail-box-4">
+            <div class="member-detail-box">
+              <div class="detail-box-img ">
+                <img src="images/c4-a.jpg" alt="">
+              </div>
+              <div class="detail-box-text">
+                <!-- cancel button -->
+                <a href="#" class="cancel" onclick="hidedetails(4)">
+                  <i class="fas fa-times"></i>
+                <a href="#" class="detail-name">Amber Sharp</a>
+    
+                <div class="member-social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <h5 class="position">Position: Kickboxing Instructor</h5>
+                <p>Amber is an energetic athletic coach with 6+ years of experience motivating clients,mentoring students, and training athletes to meet their goals in Kickboxing and other sports. She also possesses a B.A. in Sports Science. Amber consistently motivates and inspires clients to bring to bring out their best at every training session. </p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- detail-box-5 -->
+          <div id="details5" class="detail-box-5">
+            <div class="member-detail-box">
+              <div class="detail-box-img ">
+                <img src="images/c5-a.jpg" alt="">
+              </div>
+              <div class="detail-box-text">
+                <!-- cancel button -->
+                <a href="#" class="cancel" onclick="hidedetails(5)">
+                  <i class="fas fa-times"></i>
+                <a href="#" class="detail-name">Sofia Rodrigo</a>
+    
+                <div class="member-social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <h5 class="position">Position: Gym Coach</h5>
+                <p>Sofia is a motivated fitness instructor accomplished in helping clients at all fitness levels get in shape and achieve goals. Strongly believes health is a conscious lifestyle choice necessary for longevity and happiness. Sofia has a passion for improving client health, wellness and quality of life, delivering high-energy training using the latest techniques in exercise science, cardio programs and strength training.</p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- detail-box-6 -->
+          <div id="details6" class="detail-box-6">
+            <div class="member-detail-box">
+              <div class="detail-box-img ">
+                <img src="images/c6-a.jpg" alt="">
+              </div>
+              <div class="detail-box-text">
+                <!-- cancel button -->
+                <a href="#" class="cancel" onclick="hidedetails(6)">
+                  <i class="fas fa-times"></i>
+                <a href="#" class="detail-name">Sylvia Perez</a>
+    
+                <div class="member-social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <h5 class="position">Position: Gym Coach | Crossfit Instructor</h5>
+                <p>Sylvia is an accomplished and energetic CrossFit Instructor  with a solid history of achievement within the field of health and fitness. She is a motivated leader with strong organizational and prioritization abilities. Sylvia is known for helping people achieve their personal goals with enthusiasm and encouragement. </p>
+              </div>
+            </div>
+          </div>
+  
+  
+  
+        </div>
+      </section>
+      <div class="bg-modal"></div>
+      <footer>
+        <div class="footer-container">
+            <div class="footer">
+                <div class="Map">
+                    <h2>FIND US</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13816.766062933708!2d31.405682!3d30.031363!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4cdc234f46694bca!2sTitans%20Gym!5e0!3m2!1sen!2seg!4v1629578368622!5m2!1sen!2seg" width="252" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="footer-part-2">
+                  <h2>About Us</h2>
+                  <ul style="list-style-type:none">
+                      <li><a href="aboutus.html">ABOUT US</a></li>    
+                      <li><a href="trainers.html">TRAINERS</a></li> 
+                      <li><a href="schedule.html">SCHEDULE</a></li>
+                  </ul>
+              </div>
+            <div class="footer-part-1">
+                <h2 align="center">Contact Us</h2>
+                <ul style="list-style-type:none">
+                    <li><a href="contactus.html">GET SUPPORT</a></li>
+                     <li><a href="register.html">REGISTER NOW</a></li> 
+  
+                </ul>
+            </div>
+                
+                <div class="footer-form-email">
+                    <h2>Newsletter</h2><br>
+                    <p>Sign up to receive email updates on new courses, announcements, schedule updates and more.</p>
+                    <input type="email" id="email-add" name="email-add" placeholder="Enter email address"> <br>
+                    <input type="submit" value="Subscribe" id="footer-email-btn">
+                </div>
+               
+                         
+            </div>
+            <br>
+            <br>
+            <div class="icons">
+              <p align="center">
+              <i class="fab fa-instagram"></i> &nbsp 
+              <i class="fab fa-facebook"></i> &nbsp 
+              <i class="fab fa-twitter"></i> &nbsp 
+              <i class="fab fa-snapchat"></i>
+                </p>
+            </div>
+                       
+            <hr>
+            <br>
+            <div class="copyright-section">
+                <p align="center">&copy; 2021 GYMFIT. ALL RIGHTS RESERVED</p>
+            </div>
+            
+            
+        </div>
+  
+    </footer>
+    </body>
+    <script src="multi use scripts/navbar.js"></script>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="multi use scripts/coaches.js"></script>
+
+    </html>
