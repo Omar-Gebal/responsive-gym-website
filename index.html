@@ -40,9 +40,9 @@
     </nav>
     
     <div id="admin-panel">
-        <button class="admin-btn" onclick=" changetext1(); changeimage1()" id='btn-home2'>change course 1</button>
-        <button class="admin-btn" onclick=" changetext2(); changeimage2()" id='btn-home2'>change course 2</button>
-        <button class="admin-btn" onclick=" changetext3(); changeimage3()" id='btn-home2'>change course 3</button>
+        <button class="admin-btn" onclick="changeimage1(); changetext1();" id='btn-home2'>change course 1</button>
+        <button class="admin-btn" onclick="changeimage2(); changetext2();" id='btn-home2'>change course 2</button>
+        <button class="admin-btn" onclick="changeimage3(); changetext3();" id='btn-home2'>change course 3</button>
     </div>
          <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -229,7 +229,7 @@
           <hr>
           <br>
           <div class="copyright-section">
-              <p align="center">&copy; 2021 GYMFIT. ALL RIGHTS RESERVED</p> <button id="activate">ADMIN</button>
+              <p align="center">&copy; 2021 GYMFIT. ALL RIGHTS RESERVED</p> <button onclick="password();" id="activate">ADMIN</button>
           </div>
           
           
@@ -238,10 +238,6 @@
   </footer>
 
 </body>
-<!--Admin-->>
-<script>
-  
-</script>
 <!--admin script-->
 <script src="/multi use scripts/admin.js"></script>
 <!--Navbar script-->

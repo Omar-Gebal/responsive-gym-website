@@ -6,29 +6,49 @@ function hidebuttons(){
         buttons[i].classList.add('hide');   
     }
 }
+function showbuttons(){
+    for(let i = 0; i < buttons.length; i++)
+    {
+        buttons[i].classList.remove('hide');   
+        buttons[i].classList.add('show');   
+    }
+}
 
 hidebuttons();
 
 //Buttons
 function changetext1() {
     var x = document.getElementById("course-1");
-        x.innerHTML = "Yoga";
+    var course = prompt("Please enter new course name");
+    x.innerHTML = course;
 }
 function changeimage1() {
-      document.getElementById('image-1').src='/imgs/yoga.jpg';
+    var image = prompt("yoga.jpg / kettle.png / kick.jpg");
+    document.getElementById('image-1').src='/imgs/' + image;
 }
 function changetext2() {
     var x = document.getElementById("course-2");
-        x.innerHTML = "Kettle";
+    var course = prompt("Please enter new course name");
+    x.innerHTML = course;
 }
 function changeimage2() {
-      document.getElementById('image-2').src='/imgs/kettle.png';
+    var image = prompt("yoga.jpg / kettle.png / kick.jpg");
+    document.getElementById('image-2').src='/imgs/' + image;
 }
 function changetext3() {
     var x = document.getElementById("course-3");
-        x.innerHTML = "New sport";
+    var course = prompt("Please enter new course name");
+    x.innerHTML = course;
 }
 function changeimage3() {
-      document.getElementById('image-3').src='/imgs/kick.jpg';
+    var image = prompt("yoga.jpg / kettle.png / kick.jpg");
+    document.getElementById('image-3').src='/imgs/' + image;
 }
 
+//password
+function password(){
+    var password = prompt("Please enter admin password");
+    if(password == "123"){
+        showbuttons();
+    }
+}
