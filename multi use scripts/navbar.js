@@ -1,10 +1,9 @@
+// Get the navbar
+var navbar = document.querySelector("nav");
 
-if(window.innerWidth > 709){
+if(window.innerWidth > 708){
   // When the user scrolls the page, execute myFunction
   window.onscroll = function() {myFunction()};
-
-  // Get the navbar
-  var navbar = document.querySelector("nav");
 
   // Get the offset position of the navbar
   var sticky = navbar.offsetTop;

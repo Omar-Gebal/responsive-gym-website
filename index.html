@@ -6,40 +6,239 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="/Home page/index-style.css">
-    <title>Best Gym</title>
+    <link rel="stylesheet" href="css/index-style.css">
+      <link rel="shortcut icon" href="imgs/favicon.ico"type="image/x-icon">
+    
+    <title>Gym Fit</title>
 </head>
+
 <body>
     <!--Header-->
+    <!--Header-->
     <header>
-        <a href="tel:0123" class="header-item">0123</a>
-        <a href="mailto:contact@bestgym.com" class="header-item">contact@bestgym.com</a>
+        <a href="tel:+18001256524" class="header-item">+1 800125 6524</a>
+        <a href="mailto:contact@gymfit.com" class="header-item">contact@gymfit.com</a>
         <div class="header-item">
             Follow on
             <a href=""><img src="" alt=""></a>
             <a href=""><img src="" alt=""></a>
         </div>
     </header>
+        
     <!--Navigation bar-->
     <nav>
         <nav>
             <ul class="nav-list">
-                <li class="nav-item"><h4 class="nav-logo">Best Gym</h4></li>                
-                <li class="nav-item"><a href="">HOME</a></li>
-                <li class="nav-item"><a href="">ABOUT US</a></li>
-                <li class="nav-item"><a href="">COACHES</a></li>
-                <li class="nav-item"><a href="">SCHEDULE</a></li>
-                <li class="nav-item"><a href="">CONTACT</a></li>
-                <li class="nav-item"><a href="">REGISTER NOW</a></li>
+                <li class="nav-item"><span>GYM</span><span id="second">FIT</span></li>                
+                <li class="nav-item" id="active"><a href="index.html">HOME</a></li>
+                <li class="nav-item"><a href="aboutus.html">ABOUT US</a></li>
+                <li class="nav-item"><a href="trainers.html">TRAINERS</a></li>
+                <li class="nav-item"><a href="schedule.html">SCHEDULE</a></li>
+                <li class="nav-item"><a href="contactus.html">CONTACT US</a></li>
+                <li class="nav-item"><a href="register.html">REGISTER NOW</a></li>
             </ul>
         </nav>
     </nav>
-    <section class="landing">
-        
+
+    <section>
+         <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="imgs/img1.jpg" style="width:100%">
+      <div class="text">
+        <h1>GYMFIT</h1>
+        <h2>FOR ATHLETIC WOMEN</h2>
+        <p>We offer as well hardcore strength machines, curve treadmills, boxing studio, TRX, and spinning.</p>
+        <a href="register.html" class="btn">JOIN NOW!</a>
+      </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="imgs/img2.jpg" style="width:100%">
+      <div class="text">
+        <h1>GYMFIT</h1>
+        <h2>FOR ATHLETIC WOMEN</h2>
+        <p>We offer as well hardcore strength machines, curve treadmills, boxing studio, TRX, and spinning.</p>
+        <a href="register.html" class="btn">JOIN NOW!</a>
+      </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="imgs/img3.jpg" style="width:100%">
+      <div class="text">
+        <h1>GYMFIT</h1>
+        <h2>FOR ATHLETIC WOMEN</h2>
+        <p>We offer as well hardcore strength machines, curve treadmills, boxing studio, TRX, and spinning.</p>
+        <a href="register.html" class="btn">JOIN NOW!</a>
+      </div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">PREV</a>
+    <a class="next" onclick="plusSlides(1)">NEXT</a>
+
+     <!-- The dots/circles -->
+  <div class="dots" style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    
+  </div> 
+  
+  </div>
+     </section>
+
+    <section id="about">
+      <div class="top">  <img src="imgs/bck.png"></div> 
+      <div class="hori">
+        <img id="im1"src="imgs/abt1.png">
+        <img src="imgs/abt2.jpg" id="im2">
+      </div>
+      <div class="abttext">
+        <h2>ABOUT US</h2>
+        <h3>THE BEST GYM</h3>
+        <p>Empowered women. Women who love to lift heavy weights. Women who prefer to chat to their friends while strolling on the tready. Women who love to dance in Zumba, sweat in HIIT classes and throw a right hook in boxing.
+          <br><br>
+          Women who can laugh at themselves. Women brave enough to try something new. Every woman.
+          <br>
+          <br>
+          Women like us.<br>
+          Women like you.<br>
+         </p>
+         <div class="f">
+          <a href="aboutus.html" class="btn">READ MORE</a>
+         </div>
+         
+      </div>
     </section>
-    <img src="/SVGs/hamburger menu.svg" alt="">
-    <!--Navbar script-->
-    <script src="/multi use scripts/navbar.js"></script>
+    <section class="courses">
+      <h2>OUR COURSES</h2>
+      <h3>we aim to transform your abilities</h3>
+      <ul>
+        <div>
+        <img src="imgs/kettle.png">
+        <li> <a>Kettlebell</a></li>
+      </div>
+      <div>
+        <img src="imgs/yoga.jpg">
+        <li> <a>Yoga</a></li>
+      </div>
+      <div>
+        <img src="imgs/weight.jpg">
+        <li><a>Weightlifting</a></li>
+      </div>
+      <div>
+        <img src="imgs/gymn.jpg">
+        <li> <a>Advanced Gymnastics</a></li>
+      </div>
+      <div>
+        <img src="imgs/kick.jpg">
+        <li><a> Kick-Boxing</a></li>
+      </div>
+      <div>
+        <img src="imgs/cross.jpg">
+        <li><a> Cross Fit</a></li>
+      </div>
+      
+      </ul>
+     
+      <div class="parent" style="text-align: center;">
+        <a href="schedule.html" class="btn">CHECK OUR SCHEDULE NOW</a>
+      </div>
+   
+    </section>
+     <section class="trainers">
+      <div class="ttext">
+      <h2>TRAINERS</h2>
+      <h3>For athletic women</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestib ulum porttitor egestas orci, vinec at velit vestibulum,</p>
+    </div>
+      <div class="tcard">
+        <div>
+         <img src="imgs/t1.png">
+          <span>Rachel Adam</span>
+          <span class="type">Gym Trainer</span>
+        </div>
+        <div>
+          <img src="imgs/t2.jpg">
+          <span>Keaf Shen</span>
+          <span class="type">Gym Trainer</span>
+        </div>
+        <div>
+          <img src="imgs/t3.png">
+          <span>Lefew D. Loee</span>
+          <span class="type">Gym Trainer</span>
+        </div>
+      </div>
+      <div class="mid">
+      <a href="trainers.html" class="btn">VIEW MORE</a>
+    </div>
+    </section>
+  
+    <!--Footer-->
+    
+    <footer>
+      <div class="footer-container">
+          <div class="footer">
+              <div class="Map">
+                  <h2>FIND US</h2>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13816.766062933708!2d31.405682!3d30.031363!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4cdc234f46694bca!2sTitans%20Gym!5e0!3m2!1sen!2seg!4v1629578368622!5m2!1sen!2seg" width="252" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+              <div class="footer-part-2">
+                <h2>About Us</h2>
+                <ul style="list-style-type:none">
+                    <li><a href="aboutus.html">ABOUT US</a></li>    
+                    <li><a href="trainers.html">TRAINERS</a></li> 
+                    <li><a href="schedule.html">SCHEDULE</a></li>
+                </ul>
+            </div>
+          <div class="footer-part-1">
+              <h2 align="center">Contact Us</h2>
+              <ul style="list-style-type:none">
+                  <li><a href="contactus.html">GET SUPPORT</a></li>
+                   <li><a href="register.html">REGISTER NOW</a></li> 
+
+              </ul>
+          </div>
+              
+              <div class="footer-form-email">
+                  <h2>Newsletter</h2><br>
+                  <p>Sign up to receive email updates on new courses, announcements, schedule updates and more.</p>
+                  <input type="email" id="email-add" name="email-add" placeholder="Enter email address"> <br>
+                  <input type="submit" value="Subscribe" id="footer-email-btn">
+              </div>
+             
+                       
+          </div>
+          <br>
+          <br>
+          <div class="icons">
+            <p align="center">
+            <i class="fab fa-instagram"></i> &nbsp 
+            <i class="fab fa-facebook"></i> &nbsp 
+            <i class="fab fa-twitter"></i> &nbsp 
+            <i class="fab fa-snapchat"></i>
+              </p>
+          </div>
+                     
+          <hr>
+          <br>
+          <div class="copyright-section">
+              <p align="center">&copy; 2021 GYMFIT. ALL RIGHTS RESERVED</p>
+          </div>
+          
+          
+      </div>
+
+  </footer>
+
 </body>
+<!--Navbar script-->
+<script src="multi use scripts/navbar.js"></script>
+<!--Carousel script-->
+<script src="multi use scripts/slides.js"></script>
+    <!--For icons-->
+    <script src="https://kit.fontawesome.com/8712b65637.js" crossorigin="anonymous"></script>
 </html>
