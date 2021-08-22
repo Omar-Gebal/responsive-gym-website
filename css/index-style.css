@@ -347,10 +347,12 @@ li span {
     font-weight: 900;
     transition-duration: 0.3s;
     font-size: 20px;
+    transition: all ease 0.5s 0s;
   }
 .mySlides .btn, .courses .btn{
    border: 1px solid white;
     color: white;
+    transition: all ease 0.5s 0s;
 }
 .abttext .btn , .trainers .btn{
     border: 1px solid var(--hovercolor) ;
@@ -359,6 +361,7 @@ li span {
     top:1280px;
     left: 670px;
     z-index: 100;
+    transition: all ease 0.5s 0s;
 }
 .btn:hover{
     background-color: var(--hovercolor);
@@ -460,9 +463,11 @@ gap: 80px;
     position: static;
     text-align: center;    
     margin-bottom: 50px;
+    transition: all ease 0.5s 0s;
 }
 .courses .btn{
     margin-bottom: 50px;
+    transition: all ease 0.5s 0s;
 }
 .mid{
     text-align: center;
@@ -567,9 +572,6 @@ font-weight: 400;
     padding: 1rem 180px;
     
 }
-.contform label{
-    font-size: 1.5rem;
-}
 
 
 /*Footer*/
@@ -641,6 +643,8 @@ overflow: hidden;
 background: transparent;
 color: #fff;
 height:3rem;
+transition: all ease 0.5s 0s;
+padding: 0;
 
 }
 #email-add{
@@ -730,4 +734,90 @@ height:3rem;
     padding: 8px;
     font-size: 2rem;
 }
+.contact-us-form
+{
+    line-height: 1.6em;
+font-weight: 400;
 
+}
+.contact_form_detail {
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #b7b7b7;
+    background-color: #fff;
+    color: #b7b7b7;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.typea {
+    width: 33.33333333%;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+.typeb {
+    width: 100%;
+}
+.contact_form_detail1 {
+    width: 100%;
+    height: 120px;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #b7b7b7;
+    background-color: #fff;
+    color: #b7b7b7;
+    font-size: 1.5rem;
+}
+.contform .top{
+    display: flex;
+}
+.last{
+    margin: 0;
+    margin-top: 50px;
+
+}
+.contact_form_detail1:hover ,.contact_form_detail:hover{
+    border: 1px solid var(--hovercolor);
+    transition: all ease 0.5s 0s;
+box-shadow: 3px 4px 15px 0px rgba(211, 211, 211, 0.75);
+outline: none;
+    
+}
+.contact_form_detail1:focus ,.contact_form_detail:focus{
+    border: 1px solid var(--hovercolor);
+    transition: all ease 0.5s 0s;
+box-shadow: 3px 4px 15px 0px rgba(211, 211, 211, 0.75);
+outline: none;
+    
+}
+
+.submit_btn {
+    color: #fff;
+    background: #ff7101;
+    padding: 11px 38px;
+    border-radius: 60px;
+    border: none;
+    text-transform: uppercase;
+    transition: all ease 0.5s 0s;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    box-sizing: content-box;
+}
+.submit_btn:hover{
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+
+    border: 1px solid black;
+}
+.typeb{
+    text-align: center;
+}
+.header-item i{
+    color: white;
+    font-size: 1.5rem;
+}

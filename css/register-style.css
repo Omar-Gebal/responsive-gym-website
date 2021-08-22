@@ -19,21 +19,22 @@ a{
 }
 
 body {
-    background-color: black;
     color: black;
-    background: linear-gradient(to right, rgb(255, 250, 102), rgb(255, 149, 0));
 }
 
 h1{
     font-size: 3rem;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-bottom: 15px;
 }
 
 /*Login*/
 
 label{
     font-size: 1.5rem;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 input{
     font-size: 1.5rem;
@@ -41,7 +42,13 @@ input{
 .page{
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
+    background-image: url("../imgs/login-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 12vh;
+}
+.log{
+    background-image: url("../imgs/register-bck.jpg");
 }
 #login-img{
     border-radius: 20px;
@@ -56,13 +63,14 @@ input{
     justify-content: space-evenly;
     padding:25px 50px;
     border-radius: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.822);
+    
+    margin-top: 15vh;
 }
 .txt-field{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 15px 0px;
+    align-items: left;
 }
 #slink{
     font-size: 1.5rem;
@@ -74,6 +82,10 @@ input{
     padding: 10px 25px;
     border-radius:20px;
     margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: all ease 0.5s 0s;
+
 }
 .signup-link{
     font-size: 1.5rem;
@@ -204,4 +216,22 @@ li span {
 }
 .nav-item a:hover {
     border-bottom: 2px solid var(--hovercolor);
+}
+input{
+    height: 40px;
+    padding-left: 15px;
+border-radius: 5px;
+border: 1px solid #b7b7b7;
+background-color: #fff;
+color: #b7b7b7;
+font-size: 1.5rem;
+margin-bottom: 20px;
+width: 100%;
+}
+input:hover ,input:focus{
+    border: 1px solid var(--hovercolor);
+    transition: all ease 0.5s 0s;
+box-shadow: 3px 4px 15px 0px rgba(211, 211, 211, 0.75);
+outline: none;
+    
 }
