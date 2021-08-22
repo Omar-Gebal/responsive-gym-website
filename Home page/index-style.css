@@ -601,7 +601,8 @@ font-weight: 400;
    align-items: baseline;
    flex-direction:column;
    font-size: 25px;
-   padding-bottom: 1rem;
+   padding-bottom: 0.3rem;
+   text-align: left;
 }
 .footer a{
     font-size: 1.5rem;
@@ -715,7 +716,18 @@ height:3rem;
     padding-bottom:1rem;
     padding-top:0rem;
     float:top;
+    text-align: left;
 }
-    
+.copyright-section p
+{
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+    padding-top: 10px;
+} 
 
+.icons p i
+{
+    padding: 8px;
+    font-size: 2rem;
+}
 
