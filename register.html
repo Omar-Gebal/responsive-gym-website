@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index-style.css">
-
     <link rel="stylesheet" href="css/register-style.css">
+    <link rel="shortcut icon" href="imgs/favicon.ico"type="image/x-icon">
+
     <title>Register</title>
 </head>
 <body>
@@ -42,24 +43,24 @@
         <!--Form-->
         <div class="login-card">
             <h1>Register</h1>
-            <form >
+            <form onsubmit="submitForm(event)">
                 <div class="txt-field">
                     <label>Email</label>
-                    <input type="email" required  placeholder="email" >
+                    <input id="email-field" type="email" required  placeholder="email" >
                 </div>
                 <div class="txt-field">
                     <label>Username</label>
-                    <input type="text" required  placeholder="username">
+                    <input id="username-field" type="text" required  placeholder="username">
                 </div>
                 <div class="txt-field">
                     <label>Password</label>
-                    <input type="password" required  placeholder="password">
+                    <input id="password-field" type="password" required  placeholder="password">
                 </div>
                 <div class="txt-field">
                     <label>Confirm Password</label>
-                    <input type="password" required placeholder="confirm password">
+                    <input id="confirm-password-field" type="password" required placeholder="confirm password">
                 </div>
-                <input type="submit" value="Signup" class="submit-button">
+                <input id="submit-btn" type="submit" value="Signup" class="submit-button">
                 <div class="signup-link">
                     Already a member? <a id="slink" href="login.html">Login</a> 
                 </div>
@@ -126,4 +127,5 @@
 </body>
 <!--Navbar script-->
 <script src="multi use scripts/navbar.js"></script>
+<script src="multi use scripts/register.js"></script>
 </html>
