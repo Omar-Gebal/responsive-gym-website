@@ -152,7 +152,7 @@ background-color:white;
   position: relative;
 }
 .detail-name {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #181818;
   font-weight: 700;
 }
@@ -170,7 +170,7 @@ background-color:white;
   background-color: rgba(0, 0, 0, 0.1);
   margin: 5px;
   border-radius: 50%;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   color: #000;
 }
 .member-social-links a:hover {
@@ -180,6 +180,7 @@ background-color:white;
 }
 
 .detail-box-text .position {
+  font-size: 1.7rem;
   color: #000000;
   border-bottom: 1px solid #414141;
   margin: 0px;
@@ -187,9 +188,10 @@ background-color:white;
   width: 97%;
 }
 .detail-box-text p {
+  margin-top: 20px;
   color: #202020;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
 }
 
 .cancel:hover {
