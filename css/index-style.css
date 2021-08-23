@@ -1050,7 +1050,7 @@ text-align: center;
     cursor:pointer;
     background-color: #FAE5D3 ;
     transition: 0.4s ease-out;
-
+}
 /*Admin panel*/
 #admin-panel{
     display: flex;
