@@ -7,13 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/index-style.css">
-      <link rel="shortcut icon" href="imgs/favicon.ico"type="image/x-icon">
+    <link rel="shortcut icon" href="imgs/favicon.ico"type="image/x-icon">
     
     <title>Gym Fit</title>
 </head>
 
 <body>
-    <!--Header-->
     <!--Header-->
     <header>
         <a href="tel:+18001256524" class="header-item">+1 800125 6524</a>
@@ -39,8 +38,12 @@
             </ul>
         </nav>
     </nav>
-
-    <section>
+    
+    <div id="admin-panel">
+        <button class="admin-btn" onclick="changeimage1(); changetext1();" id='btn-home2'>change course 1</button>
+        <button class="admin-btn" onclick="changeimage2(); changetext2();" id='btn-home2'>change course 2</button>
+        <button class="admin-btn" onclick="changeimage3(); changetext3();" id='btn-home2'>change course 3</button>
+    </div>
          <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -118,16 +121,16 @@
       <h3>we aim to transform your abilities</h3>
       <ul>
         <div>
-        <img src="imgs/kettle.png">
-        <li> <a>Kettlebell</a></li>
+        <img id="image-1" src="imgs/kettle.png">
+        <li> <a id ="course-1">Kettlebell</a></li>
       </div>
       <div>
-        <img src="imgs/yoga.jpg">
-        <li> <a>Yoga</a></li>
+        <img id="image-2" src="imgs/yoga.jpg">
+        <li> <a id ="course-2">Yoga</a></li>
       </div>
       <div>
-        <img src="imgs/weight.jpg">
-        <li><a>Weightlifting</a></li>
+        <img id="image-3" src="imgs/weight.jpg">
+        <li><a id ="course-3">Weightlifting</a></li>
       </div>
       <div>
         <img src="imgs/gymn.jpg">
@@ -226,7 +229,7 @@
           <hr>
           <br>
           <div class="copyright-section">
-              <p align="center">&copy; 2021 GYMFIT. ALL RIGHTS RESERVED</p>
+              <p align="center">&copy; 2021 GYMFIT. ALL RIGHTS RESERVED</p> <button onclick="password();" id="activate">ADMIN</button>
           </div>
           
           
@@ -235,10 +238,12 @@
   </footer>
 
 </body>
+<!--admin script-->
+<script src="/multi use scripts/admin.js"></script>
 <!--Navbar script-->
 <script src="multi use scripts/navbar.js"></script>
 <!--Carousel script-->
 <script src="multi use scripts/slides.js"></script>
-    <!--For icons-->
-    <script src="https://kit.fontawesome.com/8712b65637.js" crossorigin="anonymous"></script>
+<!--For icons-->
+<script src="https://kit.fontawesome.com/8712b65637.js" crossorigin="anonymous"></script>
 </html>
