@@ -25,7 +25,7 @@ function changetext1() {
 }
 function changeimage1() {
     var image = prompt("yoga.jpg / kettle.png / kick.jpg");
-    document.getElementById('image-1').src='/imgs/' + image;
+    document.getElementById('image-1').src='imgs/' + image;
 }
 function changetext2() {
     var x = document.getElementById("course-2");
@@ -34,7 +34,7 @@ function changetext2() {
 }
 function changeimage2() {
     var image = prompt("yoga.jpg / kettle.png / kick.jpg");
-    document.getElementById('image-2').src='/imgs/' + image;
+    document.getElementById('image-2').src='imgs/' + image;
 }
 function changetext3() {
     var x = document.getElementById("course-3");
@@ -43,7 +43,7 @@ function changetext3() {
 }
 function changeimage3() {
     var image = prompt("yoga.jpg / kettle.png / kick.jpg");
-    document.getElementById('image-3').src='/imgs/' + image;
+    document.getElementById('image-3').src='imgs/' + image;
 }
 
 //password
